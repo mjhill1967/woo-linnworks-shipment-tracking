@@ -1,4 +1,4 @@
-=== Linnworks Shipment Tracking ===
+=== Shipment Tracking for Linnworks on WooCommerce ===
 Contributors: andrewabarber
 Donate link: https://www.buymeacoffee.com/AndrewBarber
 Tags: linnworks, woocommerce, shipping
@@ -20,7 +20,7 @@ Please ensure you have enabled your site as a channel on Linnworks first.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/linnworks-shipping-tracking` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/woo-linnworks-shipment-tracking` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
 
@@ -43,12 +43,6 @@ You haven't processed the orders on Linnworks yet. Once you have done so and the
 Ja, die Übersetzungen kommen.
 
 
-== Screenshots ==
-
-1. screenshot-1.png
-2. screenshot-2.png
-
-
 == Changelog ==
 
 = 0.1 =
@@ -63,4 +57,4 @@ Ja, die Übersetzungen kommen.
 
 == Author ==
 
-[Andrew A. Barber](https://andrewbarber.me) | [☕](https://www.buymeacoffee.com/AndrewBarber) | [GitHub](https://github.com/andrewbarber/) | [Twitter](https://twitter.com/AndrewBarber)
+[Andrew A. Barber](https://andrewbarber.me) | [Buy me a ☕](https://www.buymeacoffee.com/AndrewBarber) | [GitHub](https://github.com/andrewbarber/) | [Twitter](https://twitter.com/AndrewBarber)

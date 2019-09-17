@@ -3,10 +3,10 @@
 /**
 * @link              https://andrewbarber.me
 * @since             0.1
-* @package           Linnworks_Shipment_Tracking
+* @package           woo-linnworks-shipment-tracking
 *
 * @wordpress-plugin
-* Plugin Name: Linnworks Shipment Tracking
+* Plugin Name: Shipment Tracking for Linnworks on WooCommerce
 * Plugin URI:        https://andrewbarber.me
 
 * Description: A plugin to pull the shipment details from Linnworks -> WooCommerce intergration to the frontend for customers to view.
@@ -15,7 +15,7 @@
 * Author URI: https://andrewbarber.me/
 * License: GPLv2 or later
 * License URI: https://www.gnu.org/licenses/gpl-2.0.html
-* Text Domain: linnworks-shipment-tracking
+* Text Domain: woo-linnworks-shipment-tracking
 **/
 
 if ( ! defined( 'WPINC' ) ) {
