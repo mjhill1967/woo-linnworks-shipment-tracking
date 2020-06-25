@@ -1,13 +1,13 @@
 # Shipment Tracking for Linnworks on WooCommerce
 
-Contributors: andrewabarber
-Donate link: https://www.buymeacoffee.com/AndrewBarber
-Tags: linnworks, woocommerce, shipping
-Requires at least: 5.1
-Tested up to: 5.2.4
-Requires PHP: 5.2.4
-Stable tag: trunk
-License: GPLv2 or later
+Contributors: andrewabarber  
+Donate link: https://www.buymeacoffee.com/AndrewBarber  
+Tags: linnworks, woocommerce, shipping  
+Requires at least: 5.1  
+Tested up to: 5.2.4  
+Requires PHP: 5.2.4  
+Stable tag: trunk  
+License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A plugin to pull the shipment details from Linnworks -> WooCommerce integration to the frontend for customers to view.
