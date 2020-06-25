@@ -49,7 +49,6 @@ Ja, die Übersetzungen kommen.
 * Code cleanup.
 * Added shipping details to 'processed' email.
 
-
 = 0.3 =
 * Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
 
