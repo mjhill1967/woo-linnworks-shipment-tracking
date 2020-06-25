@@ -3,7 +3,7 @@ Contributors: andrewabarber
 Donate link: https://www.buymeacoffee.com/AndrewBarber
 Tags: linnworks, woocommerce, shipping
 Requires at least: 5.1
-Tested up to: 5.2.3
+Tested up to: 5.4.2
 Requires PHP: 5.2.4
 Stable tag: trunk
 License: GPLv2 or later
@@ -45,11 +45,26 @@ Ja, die Übersetzungen kommen.
 
 == Changelog ==
 
+= 0.4 =
+* Code cleanup.
+* Added shipping details to 'processed' email.
+
+
+= 0.3 =
+* Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
+
 = 0.1 =
 * Inital commit.
 
 
 == Upgrade Notice ==
+
+= 0.4 =
+* Code cleanup.
+* Added shipping details to 'processed' email.
+
+= 0.3 =
+* Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
 
 = 0.1 =
 * Inital commit.
