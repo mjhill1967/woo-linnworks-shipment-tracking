@@ -10,7 +10,7 @@
 * Plugin URI:        https://andrewbarber.me
 
 * Description: A plugin to pull the shipment details from Linnworks -> WooCommerce integration to the frontend for customers to view.
-* Version: 0.4
+* Version: 0.5
 * Author: Andrew A. Barber
 * Author URI: https://andrewbarber.me/
 * License: GPLv2 or later

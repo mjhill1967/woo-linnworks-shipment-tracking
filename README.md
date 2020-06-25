@@ -43,6 +43,10 @@ Ja, die Übersetzungen kommen.
 
 ## Changelog
 
+**0.5**
+
+- Automated deploy.
+
 **0.4**
 
 - Code cleanup.
@@ -57,6 +61,10 @@ Ja, die Übersetzungen kommen.
 - Inital commit.
 
 ## Upgrade Notice
+
+**0.5**
+
+- Automated deploy.
 
 **0.4**
 

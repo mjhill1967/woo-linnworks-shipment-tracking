@@ -45,6 +45,9 @@ Ja, die Übersetzungen kommen.
 
 == Changelog ==
 
+= 0.5 =
+* Automated deploy.
+
 = 0.4 =
 * Code cleanup.
 * Added shipping details to 'processed' email.
@@ -57,6 +60,9 @@ Ja, die Übersetzungen kommen.
 
 
 == Upgrade Notice ==
+
+= 0.5 =
+* Automated deploy.
 
 = 0.4 =
 * Code cleanup.
