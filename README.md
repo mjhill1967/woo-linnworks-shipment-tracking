@@ -4,7 +4,7 @@ Contributors: andrewabarber
 Donate link: https://www.buymeacoffee.com/AndrewBarber  
 Tags: linnworks, woocommerce, shipping  
 Requires at least: 5.1  
-Tested up to: 5.2.4  
+Tested up to: 5.5.3  
 Requires PHP: 5.2.4  
 Stable tag: trunk  
 License: GPLv2 or later  
@@ -37,47 +37,51 @@ The plugin pulls from the name you set on Linnworks, please set them there.
 
 You haven't processed the orders on Linnworks yet. Once you have done so and they have a tracking number there.. it should show around 15 minutes later on WooCommerce.
 
-### Sprechen Sie Deutsch?
-
-Ja, die Übersetzungen kommen.
-
 ## Changelog
+
+**0.6**
+
+-   Updated RoyalMail tracking link.
 
 **0.5**
 
-- Automated deploy.
+-   Automated deploy.
 
 **0.4**
 
-- Code cleanup.
-- Added shipping details to 'processed' email.
+-   Code cleanup.
+-   Added shipping details to 'processed' email.
 
 **0.3**
 
-- Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
+-   Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
 
 **0.1**
 
-- Inital commit.
+-   Inital commit.
 
 ## Upgrade Notice
 
+**0.6**
+
+-   Updated RoyalMail tracking link.
+
 **0.5**
 
-- Automated deploy.
+-   Automated deploy.
 
 **0.4**
 
-- Code cleanup.
-- Added shipping details to 'processed' email.
+-   Code cleanup.
+-   Added shipping details to 'processed' email.
 
 **0.3**
 
-- Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
+-   Added shipping partners: RoyalMail, Hermes, ParcelForce & UPS.
 
 **0.1**
 
-- Inital commit.
+-   Inital commit.
 
 ## Author
 
