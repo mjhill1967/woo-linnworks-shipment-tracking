@@ -10,7 +10,7 @@
 * Plugin URI:        https://andrewbarber.me
 
 * Description: A plugin to pull the shipment details from Linnworks -> WooCommerce integration to the frontend for customers to view.
-* Version: 0.5
+* Version: 0.6
 * Author: Andrew A. Barber
 * Author URI: https://andrewbarber.me/
 * License: GPLv2 or later
@@ -33,7 +33,7 @@ function linnworks_shipping_tracking($order){
         }
         elseif (strpos(strtolower($shippingPartner), 'royal') !== false && strpos(strtolower($shippingPartner), 'mail') !== false){
             $shippingPartner = 'Royal Mail';
-            $shippingNumber = "<a href=\"http://track2.royalmail.com/portal/rm/track?trackNumber=" . $shippingNumber . "\" target=\"_blank\">" . $shippingNumber ."</a>";
+            $shippingNumber = "<a href=\"https://www3.royalmail.com/track-your-item#/tracking-results/" . $shippingNumber . "\" target=\"_blank\">" . $shippingNumber ."</a>";
         }
         elseif (strpos(strtolower($shippingPartner), 'parcelforce') !== false){
             $shippingPartner = 'ParcelForce';
