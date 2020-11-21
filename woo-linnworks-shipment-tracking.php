@@ -77,7 +77,7 @@ function linnworks_shipping_email( $order, $sent_to_admin, $plain_text ) {
     }
     elseif (strpos(strtolower($shippingPartner), 'royal') !== false && strpos(strtolower($shippingPartner), 'mail') !== false){
         $shippingPartner = 'Royal Mail';
-        $shippingNumber = "<a href=\"http://track2.royalmail.com/portal/rm/track?trackNumber=" . $shippingNumber . "\" target=\"_blank\">" . $shippingNumber ."</a>";
+        $shippingNumber = "<a href=\"https://www3.royalmail.com/track-your-item#/tracking-results/" . $shippingNumber . "\" target=\"_blank\">" . $shippingNumber ."</a>";
     }
     elseif (strpos(strtolower($shippingPartner), 'parcelforce') !== false){
         $shippingPartner = 'ParcelForce';
