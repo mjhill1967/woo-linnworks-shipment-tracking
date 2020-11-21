@@ -39,6 +39,10 @@ You haven't processed the orders on Linnworks yet. Once you have done so and the
 
 ## Changelog
 
+**0.7**
+
+-   Updated RoyalMail tracking link in emails.
+
 **0.6**
 
 -   Updated RoyalMail tracking link.
