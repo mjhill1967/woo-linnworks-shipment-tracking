@@ -10,7 +10,7 @@
 * Plugin URI:        https://andrewbarber.me
 
 * Description: A plugin to pull the shipment details from Linnworks -> WooCommerce integration to the frontend for customers to view.
-* Version: 0.7
+* Version: 0.8
 * Author: Andrew A. Barber
 * Author URI: https://andrewbarber.me/
 * License: GPLv2 or later
@@ -22,8 +22,20 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-
 function linnworks_shipping_tracking($order){
+// Set physical product flag to false 
+    $physical = false;
+// iterate through order to check if physical product included
+foreach ($order->get_items() as $order_item){
+    $item = wc_get_product($order_item->get_product_id());
+    if (!$item->is_virtual()) {
+        // this order contains a physical product
+        $physical = true;
+    }
+}
+
+if ( $physical === true ) {	
+	
     if (get_post_meta($order->id, 'linnworks_tracking_number', true)){
         $shippingPartner = get_post_meta($order->id, 'linnworks_tracking_provider', true);
         $shippingNumber = get_post_meta($order->id, 'linnworks_tracking_number', true);
@@ -65,10 +77,25 @@ function linnworks_shipping_tracking($order){
         </tbody>
     </table><br/><br/>";
 }
+}	
 add_action( 'woocommerce_order_details_after_order_table', 'linnworks_shipping_tracking', 10, 1 );
 
 
 function linnworks_shipping_email( $order, $sent_to_admin, $plain_text ) {
+
+// Set physical product flag to false 
+    $physical = false;
+// iterate through order to check if physical product included
+foreach ($order->get_items() as $order_item){
+    $item = wc_get_product($order_item->get_product_id());
+    if (!$item->is_virtual()) {
+        // this order contains a physical product
+        $physical = true;
+    }
+}
+
+if ( $physical === true ) {		
+	
     $shippingPartner = get_post_meta($order->id, 'linnworks_tracking_provider', true);
     $shippingNumber = get_post_meta($order->id, 'linnworks_tracking_number', true);
     if (strpos(strtolower($shippingPartner), 'hlg') !== false || strpos(strtolower($shippingPartner), 'hermes') !== false){
@@ -111,7 +138,7 @@ function linnworks_shipping_email( $order, $sent_to_admin, $plain_text ) {
  
 	}
 }
+}
 add_action( 'woocommerce_email_order_meta', 'linnworks_shipping_email', 10, 3 );
-
 
 ?>
