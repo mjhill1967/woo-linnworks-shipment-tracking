@@ -34,7 +34,7 @@ foreach ($order->get_items() as $order_item){
     }
 }
 
-if ( $physical === true ) {	
+if ( $physical ) {	
 	
     if (get_post_meta($order->id, 'linnworks_tracking_number', true)){
         $shippingPartner = get_post_meta($order->id, 'linnworks_tracking_provider', true);
@@ -94,7 +94,7 @@ foreach ($order->get_items() as $order_item){
     }
 }
 
-if ( $physical === true ) {		
+if ( $physical ) {		
 	
     $shippingPartner = get_post_meta($order->id, 'linnworks_tracking_provider', true);
     $shippingNumber = get_post_meta($order->id, 'linnworks_tracking_number', true);
